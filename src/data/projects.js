@@ -24,6 +24,6 @@ export const projects = [
        title:"Portfolio Website",
        summary:"My personal portfolio website.",
        tech:["React","Vite","Tailwind CSS"],
-       links:{ demo:"#", code:"#" },
+       links:{ demo:"#", code:"https://github.com/nii-here/my-portfolio" },
     }
 ];

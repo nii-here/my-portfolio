@@ -46,9 +46,10 @@ export default function About() {
         <h2 className="text-3xl font-bold">About me</h2>
 
         <p className="text-lg">
-          I’m Clement. A developer in the Chicago area. I build web and mobile apps.
-          I like simple UI, clean code, and fast load times. Small features. Frequent releases. Real feedback.
-        </p>
+          I’m Clement. I’m a Software Developer. I like to build Web and Mobile applications.
+          I care about clear UI, clean code, and fast load times.
+          I ship small updates often and learn from feedback.
+</p>
 
         <div>
           <h3 className="text-xl font-semibold mb-2">Fun facts</h3>
@@ -58,10 +59,10 @@ export default function About() {
         <div>
           <h3 className="text-xl font-semibold mb-2">What I do</h3>
           <p>
-            I like building from scratch. I start with a simple plan and break big problems into tiny steps.
-            I test as I go, clean up the code, and keep the UI clear. I listen to feedback, measure what works,
-            and ship fast. If something fails, I learn and try again.
-          </p>
+            I build from scratch when needed. I start small and break work into steps.
+            I test as I go, keep the UI simple, and keep the code clean.
+            I ship often and learn from feedback.
+</p>
         </div>
 
         <div>

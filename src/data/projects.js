@@ -1,8 +1,11 @@
 export const projects = [
   {
     title: "Smart Pantry (iOS)",
+    status: "Live",
+    featured: true,
+    category: "Mobile App",
     summary:
-      "A mobile app designed to help users manage pantry inventory, reduce food waste, and simplify grocery planning through tools like receipt scanning, expiration reminders, and shared household features.",
+      "A mobile app built to help users manage pantry inventory, reduce food waste, and simplify grocery planning through features like receipt scanning, expiration reminders, and shared household support.",
     tech: ["SwiftUI", "Firebase", "VisionKit", "MapKit"],
     links: {
       demo: "https://apps.apple.com/us/app/smart-pantry/id6749603910",
@@ -12,8 +15,11 @@ export const projects = [
 
   {
     title: "Smart Pantry (Web)",
+    status: "Live",
+    featured: false,
+    category: "Web Experience",
     summary:
-      "A marketing website built to present the Smart Pantry product, highlight key features, and create a clean web presence for the app using a modern responsive interface.",
+      "A responsive marketing website created to present the Smart Pantry product, communicate its features clearly, and give the app a polished web presence.",
     tech: ["React", "Firebase", "Tailwind CSS", "Vite"],
     links: {
       demo: "https://getsmartpantry.com/",
@@ -23,8 +29,11 @@ export const projects = [
 
   {
     title: "Smart Pantry (Android)",
+    status: "In Progress",
+    featured: false,
+    category: "Mobile App",
     summary:
-      "An Android version of Smart Pantry currently in progress, focused on extending the app experience to a wider mobile audience while maintaining the same practical household management goals.",
+      "An Android version of Smart Pantry currently in development, focused on bringing the same practical inventory and household management experience to a broader mobile audience.",
     tech: ["Kotlin", "Firebase", "Android Development"],
     links: {
       demo: "#",
@@ -34,11 +43,14 @@ export const projects = [
 
   {
     title: "Portfolio Website",
+    status: "Live",
+    featured: false,
+    category: "Personal Site",
     summary:
-      "A personal portfolio website created to showcase my background, projects, and technical experience through a clean, responsive, and professional design.",
+      "A personal portfolio website designed and built to showcase my background, projects, and technical experience through a clean, responsive, and professional interface.",
     tech: ["React", "Vite", "Tailwind CSS"],
     links: {
-      demo: "#",
+      demo: "https://my-portfolio-beige-ten-43.vercel.app",
       code: "https://github.com/nii-here/my-portfolio",
     },
   },

@@ -54,4 +54,18 @@ export const projects = [
       code: "https://github.com/nii-here/my-portfolio",
     },
   },
+
+  {
+    title: "Auto Shop Website",
+    status: "Live",
+    featured: false,
+    category: "AutoShop Site",
+    summary:
+      "Built a full-stack appointment booking system for an auto shop using Next.js, Firebase, and Resend, enabling customers to request services and admins to manage approvals with automated email notifications.",
+    tech: ["Next.js", "React", "Firebase(Firestore)", "Resend", "Vercel"],
+    links: {
+      demo: "https://karebearauto.com",
+      code: "https://github.com/nii-here/Kare-bear-auto-shop",
+    },
+  },
 ];

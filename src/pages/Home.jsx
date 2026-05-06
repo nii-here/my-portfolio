@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import me from "../assets/clement.jpeg";
+import me from "../assets/clement.png";
 
 const skillGroups = [
   {

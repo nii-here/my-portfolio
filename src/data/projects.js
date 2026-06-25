@@ -29,7 +29,7 @@ export const projects = [
 
   {
     title: "Smart Pantry (Android)",
-    status: "In Progress",
+    status: "Paused",
     featured: false,
     category: "Mobile App",
     summary:
@@ -66,6 +66,20 @@ export const projects = [
     links: {
       demo: "https://karebearauto.com",
       code: "https://github.com/nii-here/Kare-bear-auto-shop",
+    },
+  },
+
+  {
+    title: "IncidentFLow",
+    status: "In Progress",
+    featured: true,
+    category: "IT support and systems monitoring platform",
+    summary:
+      "IncidentFlow enables organizations to manage employees, departments, support tickets, assignments, SLA deadlines, and complete audit history through a secure role-based system.",
+    tech: ["Backend: Python, FastAPI, SQLAlchemy, Pydantic", "Database: PostgreSQL, Alembic", "Auth: JWT", "Infrastructure: Docker, Docker Compose"],
+    links: {
+      demo: "TBA",
+      code: "https://github.com/nii-here/IncidentFlow",
     },
   },
 ];

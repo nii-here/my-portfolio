@@ -14,6 +14,20 @@ export const projects = [
   },
 
   {
+    title: "IncidentFLow",
+    status: "In Progress",
+    featured: true,
+    category: "IT support and systems monitoring platform",
+    summary:
+      "IncidentFlow enables organizations to manage employees, departments, support tickets, assignments, SLA deadlines, and complete audit history through a secure role-based system.",
+    tech: ["Backend: Python, FastAPI, SQLAlchemy, Pydantic", "Database: PostgreSQL, Alembic", "Auth: JWT", "Infrastructure: Docker, Docker Compose"],
+    links: {
+      demo: "#",
+      code: "https://github.com/nii-here/IncidentFlow",
+    },
+  },
+
+  {
     title: "Smart Pantry (Web)",
     status: "Live",
     featured: false,
@@ -69,17 +83,4 @@ export const projects = [
     },
   },
 
-  {
-    title: "IncidentFLow",
-    status: "In Progress",
-    featured: true,
-    category: "IT support and systems monitoring platform",
-    summary:
-      "IncidentFlow enables organizations to manage employees, departments, support tickets, assignments, SLA deadlines, and complete audit history through a secure role-based system.",
-    tech: ["Backend: Python, FastAPI, SQLAlchemy, Pydantic", "Database: PostgreSQL, Alembic", "Auth: JWT", "Infrastructure: Docker, Docker Compose"],
-    links: {
-      demo: "TBA",
-      code: "https://github.com/nii-here/IncidentFlow",
-    },
-  },
 ];
